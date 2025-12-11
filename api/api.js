@@ -48,8 +48,8 @@ const mockData = {
 }
 
 // 判断是否启用Mock
-// const enableMock = process.env.NODE_ENV === 'development' 
-const enableMock = false;
+const enableMock = process.env.NODE_ENV === 'development'
+// const enableMock = false;
 
 
 // API基础URL
